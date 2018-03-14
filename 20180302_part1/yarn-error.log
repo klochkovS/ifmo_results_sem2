@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev wabpack webpack-cli
+
+PATH: 
+  /home/heh/bin:/home/heh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-9-oracle/bin:/usr/lib/jvm/java-9-oracle/db/bin
+
+Yarn version: 
+  1.4.0
+
+Node version: 
+  9.5.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "20180302_part1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "wabpack" on the "npm" registry.
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at NpmResolver.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:50354:15)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:160:7)
